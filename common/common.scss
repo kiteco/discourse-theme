@@ -1,4 +1,5 @@
 $font-stack: 'Palanquin', sans-serif;
+$monospace-font-stack: 'Roboto Mono', monospace;
 $kite-blue: #0c1935;
 
 html {
@@ -12,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
 
 input, button, select, textarea {
   font-family: $font-stack;
+}
+
+code, pre {
+  font-family: $monospace-font-stack;
 }
 
 .d-header {

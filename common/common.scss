@@ -1,6 +1,7 @@
 $font-stack: 'Palanquin', sans-serif;
 $monospace-font-stack: 'Roboto Mono', monospace;
 $kite-blue: #0c1935;
+$header-gray: #999;
 
 html {
   font-family: $font-stack;
@@ -17,10 +18,6 @@ input, button, select, textarea {
 
 code, kbd, pre, samp {
   font-family: $monospace-font-stack;
-}
-
-.d-header {
-  background-color: $kite-blue;
 }
 
 .badge-notification {
@@ -56,4 +53,25 @@ h1 .topic-statuses .topic-status i {
   font-size: 0.8em;
   margin-right: 0.5em;
   vertical-align: middle;
+}
+
+header .d-header {
+  background-color: $kite-blue;
+
+  .extra-info.two-rows h1 {
+    line-height: 1.3em;
+    margin: -0.25em 0 0 0;
+
+    .extra-info-wrapper .topic-link {
+      color: $header-gray;
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  .extra-info-wrapper .badge-wrapper.bullet span.badge-category {
+    color: $header-gray;
+  }
 }

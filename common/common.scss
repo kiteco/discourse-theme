@@ -5,6 +5,10 @@ html {
   font-family: $font-stack;
 }
 
+input, button, select, textarea {
+  font-family: $font-stack;
+}
+
 .d-header {
   background-color: $kite-blue;
 }

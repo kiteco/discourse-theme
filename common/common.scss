@@ -37,3 +37,11 @@ code, pre {
   margin-bottom: 0.6rem;
   margin-left: 1rem;
 }
+
+.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
+  display: inline-block;
+  height: 12px;
+  line-height: 1;
+  margin-right: 5px;
+  width: 12px;
+}

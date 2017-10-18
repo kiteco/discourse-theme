@@ -1,3 +1,10 @@
+$font-stack: 'Palanquin', sans-serif;
+$kite-blue: #0c1935;
+
 html {
-  font-family: 'Palanquin', sans-serif;
+  font-family: $font-stack;
+}
+
+.d-header {
+  background-color: $kite-blue;
 }

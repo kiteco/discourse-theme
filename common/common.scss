@@ -61,14 +61,14 @@ header.d-header {
   .extra-info.two-rows h1 {
     line-height: 1.3em;
     margin: -0.25em 0 0 0;
+  }
 
-    .extra-info-wrapper .topic-link {
-      color: $header-gray;
-      display: block;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
+  .extra-info-wrapper .topic-link {
+    color: $header-gray;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .extra-info-wrapper .badge-wrapper.bullet span.badge-category {

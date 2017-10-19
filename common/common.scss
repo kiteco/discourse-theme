@@ -39,6 +39,10 @@ header.d-header {
   .extra-info-wrapper .badge-wrapper.bullet span.badge-category {
     color: $header-gray;
   }
+
+  h1 .topic-statuses .topic-status i.d-icon-lock {
+    margin-top: 0.3em;
+  }
 }
 
 h1 {
